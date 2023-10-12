@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:143185353387:task-definition/demo-ecs-kc-node-js-server:6",
+    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:143185353387:task-definition/node-task:1",
     "containerDefinitions": [
         {
             "name": "node-js-server",
@@ -24,7 +24,7 @@
                 "logDriver": "awslogs",
                 "options": {
                     "awslogs-create-group": "true",
-                    "awslogs-group": "/ecs/demo-ecs-kc-node-js-server",
+                    "awslogs-group": "/ecs/node-task",
                     "awslogs-region": "ap-south-1",
                     "awslogs-stream-prefix": "ecs"
                 },
@@ -32,11 +32,11 @@
             }
         }
     ],
-    "family": "demo-ecs-kc-node-js-server",
+    "family": "node-task",
     "taskRoleArn": "arn:aws:iam::143185353387:role/ecsTaskExecutionRole",
     "executionRoleArn": "arn:aws:iam::143185353387:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 6,
+    "revision": 1,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -82,7 +82,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-10-12T05:41:04.779Z",
+    "registeredAt": "2023-10-12T08:24:15.929Z",
     "registeredBy": "arn:aws:iam::143185353387:root",
     "tags": []
 }
