@@ -1,5 +1,5 @@
 module.exports = {
-  HOST: "database-1.co3t3qiefrdg.ap-south-1.rds.amazonaws.com",
+  HOST: "mysql",
   USER: "admin",
   PASSWORD: "12345678",
   DB: "testdb",
