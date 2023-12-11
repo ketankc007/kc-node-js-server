@@ -1,6 +1,6 @@
 module.exports = {
   HOST: "mysql",
-  USER: "admin",
+  USER: "root",
   PASSWORD: "12345678",
   DB: "testdb",
   dialect: "mysql",
